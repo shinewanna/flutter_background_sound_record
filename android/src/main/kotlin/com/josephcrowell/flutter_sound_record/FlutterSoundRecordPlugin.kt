@@ -50,7 +50,7 @@ class FlutterSoundRecordPlugin : FlutterPlugin, ActivityAware {
     }
 
     override fun onDetachedFromActivity() {
-        stopPlugin()
+       //stopPlugin()
     }
 
     private fun startPlugin(messenger: BinaryMessenger, binding: ActivityPluginBinding) {
